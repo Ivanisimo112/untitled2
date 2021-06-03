@@ -15,7 +15,7 @@ public class Main {
                 if (n == 1) {
                     break;
                 }
-                if (n % (i + 1) == 0) {
+                if (n % (i + 1 ) == 0) {
                     n = n / (i + 1);
                     ints[i]++;
                     i = 0;
